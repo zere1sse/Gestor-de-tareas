@@ -20,4 +20,26 @@ Este proyecto es una aplicación de consola escrita en C para gestionar tareas. 
    git clone https://github.com/tu_usuario/tu_repositorio.git
 
 
+Compila el código (ejemplo con gcc):
 
+gcc -o gestor tareas.c funcionalidades.c main.c
+
+Ejecuta el programa:
+
+./gestor
+
+Requisitos
+-Compilador de C (como GCC).
+
+-Sistema operativo compatible con consola.
+
+Estructura del proyecto: 
+-main.c: Función principal y menú.
+
+-tareas.h: Declaraciones y estructuras.
+
+-funcionalidades.c: Implementación de las funciones para gestionar tareas.
+
+-colores.h: Definición de colores para consola (opcional).
+
+by: zere1sse (este proyecto es de principiante para aprender este lenguaje)
